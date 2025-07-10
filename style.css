@@ -1,0 +1,95 @@
+
+:root {
+  --cor-primaria: #e60000;
+  --cor-secundaria: #1a1a1a;
+  --cor-cinza: #2e2e2e;
+  --cor-branca: #ffffff;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: var(--cor-cinza);
+  color: var(--cor-branca);
+}
+header {
+  background: var(--cor-secundaria);
+  padding: 2rem;
+  text-align: center;
+  border-bottom: 3px solid var(--cor-primaria);
+}
+header img {
+  max-width: 300px;
+  margin-bottom: 1rem;
+}
+nav {
+  background: var(--cor-primaria);
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+nav a {
+  color: var(--cor-branca);
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background: var(--cor-secundaria);
+}
+.hero img {
+  max-width: 450px;
+  margin: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.3);
+}
+.hero-text {
+  max-width: 500px;
+  padding: 1rem;
+}
+.hero-text h1 {
+  color: var(--cor-primaria);
+}
+.btn-comprar {
+  background: var(--cor-primaria);
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+.btn-comprar:hover {
+  background: #cc0000;
+}
+section {
+  padding: 2rem;
+}
+#especificacoes ul, .comparativo ul {
+  max-width: 700px;
+  margin: 2rem auto;
+  list-style: none;
+  padding: 1.5rem;
+  background: #333;
+  border-radius: 10px;
+}
+#especificacoes li, .comparativo li {
+  margin-bottom: 1rem;
+}
+.comparativo {
+  background: #1c1c1c;
+  color: #f1f1f1;
+}
+footer {
+  background: var(--cor-secundaria);
+  color: #bbb;
+  text-align: center;
+  padding: 1rem;
+  border-top: 3px solid var(--cor-primaria);
+}
